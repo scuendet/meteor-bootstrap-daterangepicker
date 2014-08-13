@@ -4,8 +4,9 @@ Package.describe({
 
 Package.on_use(function (api) {
 	api.add_files([
-		'lib/bootstrap-daterangepicker/daterangepicker.css',
-		'lib/bootstrap-daterangepicker/date.js',
+		'lib/bootstrap-daterangepicker/daterangepicker-bs3.css',
+		'lib/bootstrap-daterangepicker/moment.js',
+		'lib/bootstrap-daterangepicker/moment.min.js',
 		'lib/bootstrap-daterangepicker/daterangepicker.js'
 		], 'client');
 });
